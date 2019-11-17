@@ -53,7 +53,7 @@
               type="hidden"><br>
             <br>
             <input name="sitesearch" value="" type="radio"> Sur le web<br>
-            <input name="sitesearch" value="a2va.github.io/Redstone"
+            <input name="sitesearch" value="adresse de ton site sans http://" checked="checked"
 
               type="radio"> Sur ce site </form>
           <header class="major"> <span class="date">April 25, 2017</span>
