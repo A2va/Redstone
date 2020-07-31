@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="A2va">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A2va</title>
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -54,13 +55,24 @@
 
   <div class="main_text">
     <h1>Bootstrap starter template</h1>
-    <canvas class="3dviewer col-md-9" sourcefiles="bud/piston_bud1.obj|bud/piston_bud1.mtl|bud/piston_bud1-RGB.png|bud/piston_bud1-Alpha.png|bud/piston_bud1-RGBA.png" 
+    <canvas class="3dviewer w-auto" sourcefiles="bud/piston_bud1.obj|bud/piston_bud1.mtl|bud/piston_bud1-RGB.png|bud/piston_bud1-Alpha.png|bud/piston_bud1-RGBA.png" 
      id="3dcanvas"></canvas>
     <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
   </div>
 
 </main><!-- /.container -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="jsmodeler/three.min.js"></script>
+<script type="text/javascript" src="jsmodeler/jsmodeler.js"></script>
+<script type="text/javascript" src="jsmodeler/jsmodeler.ext.three.js"></script>
+<script type="text/javascript" src="jsmodeler/online3dembedder.js"></script>
+<script type="text/javascript">
+window.addEventListener ('load', LoadOnline3DModels, true);
+</script>
+<script>
+
+  
+</script>
 <script src="bootstrap/js/bootstrap.bundle.js"></script>
 <script src="livesearch/js/draw_table.js"></script>
 <script src="livesearch/js/search.js"></script>
