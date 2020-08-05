@@ -1,5 +1,22 @@
-newmtl minecraft_material
-Kd 0.91015625 0.87890625 0.6015625
-Ks 0.91015625 0.87890625 0.6015625
-map_Kd ../textures/texture.png
-map_d ../textures/texture_a.png
+# Made in Blockbench 3.6.5
+newmtl m_0
+map_Kd ../textures/iron_block.png 
+newmtl m_2
+map_Kd ../textures/piston_side.png 
+newmtl m_4
+map_Kd ../textures/observer_front.png 
+newmtl m_5
+map_Kd ../textures/observer_side.png 
+newmtl m_7
+map_Kd ../textures/observer_top.png 
+newmtl m_8
+map_Kd ../textures/redstone_dust_line_off.png 
+newmtl m_9
+map_Kd ../textures/redstone_dust_line_off.png 
+newmtl m_10
+map_Kd ../textures/stone_slab_top.png 
+newmtl m_11
+map_Kd ../textures/repeater.png 
+newmtl m_12
+map_Kd ../textures/redstone_torch_off.png 
+newmtl none
