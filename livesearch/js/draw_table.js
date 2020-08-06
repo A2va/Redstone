@@ -10,5 +10,6 @@ $(document).ready(function(){
             
         $("tbody").append(tbody);
         $(".livesearch-table").hide();
+        $(".livesearch").removeClass("show");
     });
 });
