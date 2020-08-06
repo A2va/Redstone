@@ -11,7 +11,7 @@ $("#ls_query").keyup(function(){
         }
         else
         {
-            //$(".livesearch-table").hide();
+            $(".livesearch-table").hide();
         }
     });
 });

@@ -40,7 +40,7 @@
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" id="ls_query"  type="text" placeholder="Search" aria-label="Search">
-      <div class="dropdown-menu dropdown-menu-right col-md-3 show bg-wight border livesearch" >
+      <div class="dropdown-menu dropdown-menu-right show bg-wight col-md-3 livesearch" >
 
           <table class="livesearch-table table-borderless"> 
             <tbody>
@@ -53,14 +53,21 @@
 
 <main role="main" class="container">
 
-  <div class="main_text">
+  <div class="main_text" id="main">
     <h1>Double Extender</h1>
-    <canvas class="3dviewer viewer" sourcefiles="bud/piston_bud1.obj|bud/piston_bud1.mtl|bud/piston_bud1-RGB.png|bud/piston_bud1-Alpha.png|bud/piston_bud1-RGBA.png" 
-     id="3dcanvas"></canvas>
-     <h2 class="text-left">Double extender #1 (Vertical)</h2>
+     <h2 class="text-left" id="db_ext_1">Double extender #1 (Vertical)</h2>
      <model-viewer src="models/gltf/double_extender_1.gltf" alt="Double extender #1 (Vertical)" auto-rotate camera-controls></model-viewer>
-     <h2 class="text-left">Double extender #2 (Horizontal)</h2>
-    <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+     <h2 class="text-left" id="db_ext_2">Double extender #2 (Horizontal)</h2>
+     <model-viewer src="models/gltf/double_extender_2.gltf" alt="Double extender #1 (Vertical)" auto-rotate camera-controls></model-viewer>
+     <h2 class="text-left" id="db_ext_3" >Double extender #3 (Vertical)</h2>
+     <model-viewer src="models/gltf/double_extender_3.gltf" alt="Double extender #1 (Vertical)" auto-rotate camera-controls></model-viewer>
+     <h2 class="text-left" id="db_ext_4">Double extender #4 (Vertical)</h2>
+     <model-viewer src="models/gltf/double_extender_4.gltf" alt="Double extender #1 (Vertical)" auto-rotate camera-controls></model-viewer>
+     <h2 class="text-left">Double extender #5 (Vertical)</h2>
+     <p>With pistons</p>
+     <model-viewer src="models/gltf/double_extender_5.gltf" alt="Double extender #1 (Vertical)" auto-rotate camera-controls></model-viewer>
+     <p>Without pistons</p>
+     <model-viewer src="models/gltf/double_extender_5_b.gltf" alt="Double extender #1 (Vertical)" auto-rotate camera-controls></model-viewer>
   </div>
 
 </main><!-- /.container -->

@@ -1,10 +1,22 @@
 [
   {
-    "key": "Website",
-    "url": "generic_3d.html"
+    "key": "Double extender #1 (Vertical)",
+    "url": "index.html#main"
   },
   {
-    "key": "Redstone",
-    "url": "a2va.github.io/Redstone/generic"
+    "key": "Double extender #2 (Horizontal)",
+    "url": "index.html#db_ext_1"
+  },
+  {
+    "key": "Double extender #3 (Vertical)",
+    "url": "index.html#db_ext_2"
+  },
+  {
+    "key": "Double extender #4 (Vertical)",
+    "url": "index.html#db_ext_3"
+  },
+  {
+    "key": "Double extender #5 (Vertical)",
+    "url": "index.html#db_ext_4"
   }
 ]

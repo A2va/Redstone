@@ -1,0 +1,18 @@
+# Made in Blockbench 3.6.5
+newmtl m_0
+map_Kd ../textures/observer_front.png 
+newmtl m_1
+map_Kd ../textures/observer_side.png 
+newmtl m_2
+map_Kd ../textures/observer_back.png 
+newmtl m_3
+map_Kd ../textures/observer_top.png 
+newmtl m_5
+map_Kd ../textures/piston_side.png 
+newmtl m_6
+map_Kd ../textures/piston_bottom.png 
+newmtl m_7
+map_Kd ../textures/iron_block.png 
+newmtl m_8
+map_Kd ../textures/stone.png 
+newmtl none
