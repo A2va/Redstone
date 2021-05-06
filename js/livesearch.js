@@ -23,37 +23,24 @@
 // Based on Achraf BELLAALI
 // https://github.com/IndianGhost/liveSearch
 
-jQuery(function () {
-    $.getJSON("/js/data.json", function(results){
-        var tbody = "";
-        var keyNames = Object.keys(results[0]);
-        class_link='"nav-link text-dark"'
-        for(var j=0; j<results.length; j++)
-        {
-            tbody += "<tr><td><a class=" + class_link + "href="+results[j][keyNames[1]]+">"+ results[j][keyNames[0]]+"</a></td></tr>";
+
+export function search(event) {
+    let _this = this;
+    document.querySelectorAll(".livesearch-table tbody tr").forEach(function (node) {
+        if (_this.value.length > 0) {
+            document.getElementById('livesearch-table').style.display = 'block'; // show¨
+            document.getElementById('livesearch').classList.add("show");
+            if (node.outerText.toLowerCase().indexOf(_this.value.toLowerCase()) === -1) {
+                node.style.display = 'none'; // hide
+            }
+            else {
+                node.style.display = 'block'; // show
+            }
         }
-            
-        $("tbody").append(tbody);
-        $(".livesearch-table").hide();
-        $(".livesearch").removeClass("show");
-    });
-});
-$(document).on('keyup','#ls_query',function () {
-    _this = this;
-    $.each($(".livesearch-table tbody tr"), function() {
-        if($(_this).val().length > 0)
-        {    
-            $(".livesearch-table").show();
-            $(".livesearch").addClass("show");
-            if($(this).text().toLowerCase().indexOf($(_this).val().toLowerCase()) === -1)
-                $(this).hide();
-            else
-                $(this).show();
-        }
-        else
-        {
-            $(".livesearch-table").hide();
-            $(".livesearch").removeClass("show");
+        else {
+            document.getElementById('livesearch-table').style.display = 'none'; // hide
+            document.getElementById('livesearch').classList.remove("show");
         }
     });
-});
+
+}
